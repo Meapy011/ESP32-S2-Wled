@@ -6,23 +6,16 @@
 - [Wled Website](https://kno.wled.ge/)
 - [Online Custom Compiler](https://wled-compile.github.io/?lang=en)
 
-## How to Update your Nugget:
-1.	[Download the latest binary file here](https://github.com/HakCat-Tech/USB-Nugget/releases/)
-2.	Place your Nugget in [Device Firmware Upgrade (DFU) mode]().
-4.	Open our [web flasher tool](https://hakcat-tech.github.io/esp-web-flasher/) in Google Chrome (other browsers not currently supported)
+## How to Update your S2:
+1.	[Download the binary file here](https://github.com/Meapy011/ESP32-S2-Wled/raw/refs/heads/main/bins/Nugget-Wled15-SR.bin)
+2.	Place the S2 in [Device Firmware Upgrade (DFU) mode]().
+4.	Open the [web flasher tool](https://esptool.spacehuhn.com/) in Google Chrome (other browsers not currently supported)
 5.	Click on "Connect" and then select the "ESP32-S2" board. Click "Erase" and "OK" to continue.
-6.	Once you see "Finished", click "Choose a file" and select the .BIN file you downloaded in step one. Click "Program" to flash your Nugget!
-7.	When its done, unplug your Nugget and plug it in again to see the new features. 
+6.	Once you see "Finished", click "Choose a file" and select the .BIN file you downloaded in step one, with the start value set to 0x1000. Then click "Program" to flash!
+7.	When its done, unplug the ESP and Reconnect to run your new firmware
 
 ## Accessing the Web Interface
-To access the web interface, connect to `Nugget-AP` with the password `nugget123`.  In a web browser, navigate to `4.3.2.1'
-
-## Updating AP Credentials & Keyboard ID
-To edit your USB Nugget's default AP name & password, edit or create the `.usbnugget.conf` file on your NUGGET drive, and add the following 2 lines:
-```
-network = "Nugget-AP"
-password = "nugget1223"
-```
+To access the web interface, connect to `Nugget-AP` with the password `nugget1223`.  In a web browser, navigate to `4.3.2.1'
 
 ## Included Usermods
 
