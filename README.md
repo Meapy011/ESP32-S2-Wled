@@ -16,7 +16,7 @@
 
 ## Accessing the Web Interface
 
-To access the web interface, connect to `Wled-AP` with the password `wled1234`.  In a web browser, navigate to `4.3.2.1', 
+To access the web interface, connect to `Wled-AP` with the password `wled1234`.  In a web browser, navigate to `4.3.2.1`
 if using the nugget variant connect to `Nugget-AP` with the password `nugget1223`.
 
 ## Included Usermods
