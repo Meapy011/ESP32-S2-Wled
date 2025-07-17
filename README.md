@@ -9,7 +9,9 @@
 
 ## How to Update your S2:
 1.	Download the binary file here:
+
 	[S2](https://github.com/Meapy011/ESP32-S2-Wled/raw/refs/heads/main/bins/Wled-15-SR-LCD.bin)
+
 	[Usb Nugget](https://github.com/Meapy011/ESP32-S2-Wled/raw/refs/heads/main/bins/Nugget-Wled15-SR.bin)
 2.	Place the S2 in Device Firmware Upgrade (DFU) mode by holding down the 0 button.
 4.	Open the [web flasher tool](https://esptool.spacehuhn.com/) in Google Chrome (other browsers not currently supported)
