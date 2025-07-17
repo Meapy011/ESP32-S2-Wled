@@ -8,14 +8,15 @@
 
 ## How to Update your S2:
 1.	[Download the binary file here](https://github.com/Meapy011/ESP32-S2-Wled/raw/refs/heads/main/bins/Nugget-Wled15-SR.bin)
-2.	Place the S2 in [Device Firmware Upgrade (DFU) mode]().
+2.	Place the S2 in Device Firmware Upgrade (DFU) mode by holding down the 0 button.
 4.	Open the [web flasher tool](https://esptool.spacehuhn.com/) in Google Chrome (other browsers not currently supported)
 5.	Click on "Connect" and then select the "ESP32-S2" board. Click "Erase" and "OK" to continue.
 6.	Once you see "Finished", click "Choose a file" and select the .BIN file you downloaded in step one, with the start value set to 0x1000. Then click "Program" to flash!
 7.	When its done, unplug the ESP and Reconnect to run your new firmware
 
 ## Accessing the Web Interface
-To access the web interface, connect to `Nugget-AP` with the password `nugget1223`.  In a web browser, navigate to `4.3.2.1'
+
+To access the web interface, connect to `Wled-AP` with the password `wled1234`.  In a web browser, navigate to `4.3.2.1', if using the nugget variant connect to `Nugget-AP` with the password `nugget1223`.
 
 ## Included Usermods
 
