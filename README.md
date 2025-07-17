@@ -30,7 +30,7 @@ if using the nugget variant connect to `Nugget-AP` with the password `nugget1223
 - Four line display
 
 ## Refrence Links
-- [Initaial Findings on Running Wled on S2](https://github.com/Babyyoda777/WLED-ESP32S2-Mini-Project)
+- [Initial Findings on Running Wled on S2](https://github.com/Babyyoda777/WLED-ESP32S2-Mini-Project)
 - [Info on dumping ESP32 Flash](https://www.pleasedontcode.com/blog/how-to-extract-a-binary-file-from-esp32-in-simple-words)
 - [Info on merging seperate binaries into one](https://georgik.rocks/how-to-build-single-flashable-binary-for-esp32-with-esptool-py/)
 - [Troubleshooting Dumping issues with S2](https://www.reddit.com/r/esp32/comments/1bldmd2/comment/kwsvcg2)
